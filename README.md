@@ -11,3 +11,6 @@ I gained some valuable skills through this project that would be difficult to re
 - Learning to effectively communicate about my code.
 
 ## Back End
+
+
+![Medium Sized cards](../../blob/master/Screenshots/12ResponsiveAfter.PNG)
