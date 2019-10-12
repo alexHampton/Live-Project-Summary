@@ -14,3 +14,6 @@ I gained some valuable skills through this project that would be difficult to re
 
 #### Save Button Partial View
 The program I was working on had various CRUD buttons all with the same styling, except for the Save button. 
+
+![Different style for Save button](Screenshots/28SavePartialViewBeforeSchedulesEdit.PNG)
+*Save button with different style*
