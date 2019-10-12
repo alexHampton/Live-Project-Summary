@@ -3,6 +3,15 @@
 
 During my time with the Tech Academy, I worked on a Live Project for two weeks along with other developers and a project manager. We worked in one-week sprints, with daily Stand-Up meetings, and a weekly Sprint Retrospective. This was a rewarding experience, and I worked on Back-End as well as Front-End User stories. 
 
+Table of Contents 
+=================
+
+* [Overall Experience](#overall-experience)
+* [Back End](#back-end)
+  * [User Story 1: Save Button Partial View](#user-story-1)
+  * [User Story 2: Shift Time Editing](#user-story-2)
+
+
 #### Overall Experience
 I gained some valuable skills through this project that would be difficult to replace with study alone. These skills include:
 - Using Version Control (Git) on a project with multiple users.
@@ -12,7 +21,8 @@ I gained some valuable skills through this project that would be difficult to re
 
 ## Back End
 
-### User Story: Save Button Partial View
+### User Story 1
+#### Save Button Partial View
 The program I was working on had various CRUD buttons all with the same styling, except for the Save button. 
 
 | Goal  | Problem |
@@ -44,7 +54,8 @@ Here is the end result!
 |![Different style for Save button](Screenshots/28.png)*No styling* | ![Different style for Save button](Screenshots/36.png)*Updated Style*|
 
 
-### User Story: Shift Time Editing
+### User Story 2
+#### Shift Time Editing
 When the user creates a job, there is a button that opens a modal so they can add a default shift-start time, and also times for specific days, in case the default time isn't used for those specified days. However, if the user needs to edit a job, they can only edit the default time, and there is no modal to change other times. 
 
 ![Original Edit View](Screenshots/06ShiftTimeEditingBefore.PNG)
