@@ -10,6 +10,8 @@ Table of Contents
 * [Back End](#back-end)
   * [User Story 1: Save Button Partial View](#user-story-1)
   * [User Story 2: Shift Time Editing](#user-story-2)
+  
+* [End of Document](#end)
 
 
 #### Overall Experience
@@ -78,3 +80,9 @@ I added a new Partial View for the modal, using scaffolded code and borrowing co
 | Model  | Updates |
 | --- | --- |
 |![Changed the model](Screenshots/15.png)*Old and new models* |![Updated the models](Screenshots/16.jpg)*Old and new model reference*|
+
+
+
+
+
+## End
