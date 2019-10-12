@@ -154,7 +154,7 @@ After using DevTools, I added some extra classes to the HTML, and started out wi
 
 I was pleased with the final result!
 
-|Medium Size| Small Size|
+|Small Size| Medium Size|
 | --- | --- |
 |![Medium size after](Screenshots/05SI.PNG) | ![Small size after](Screenshots/06SI.PNG) |
 
