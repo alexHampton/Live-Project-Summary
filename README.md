@@ -3,7 +3,7 @@
 
 During my time with the Tech Academy, I worked on a Live Project for two weeks along with other developers and a project manager. We worked in one-week sprints, with daily Stand-Up meetings, and a weekly Sprint Retrospective. This was a rewarding experience, and I worked on Back-End as well as Front-End User stories. 
 
-### Overall Experience
+#### Overall Experience
 I gained some valuable skills through this project that would be difficult to replace with study alone. These skills include:
 - Using Version Control (Git) on a project with multiple users.
 - Using project management software to maintain accountability. In this case, we used Azure DevOps.
@@ -12,7 +12,7 @@ I gained some valuable skills through this project that would be difficult to re
 
 ## Back End
 
-#### Save Button Partial View
+### User Story: Save Button Partial View
 The program I was working on had various CRUD buttons all with the same styling, except for the Save button. 
 
 | Goal  | Problem |
@@ -39,4 +39,23 @@ The final step was to update all the Edit views to use this same Partial View of
 
 Here is the end result!
 
-<img src="Screenshots/36FinalResult.PNG" alt="alt text" width="430px" height="100px"> <img src="Screenshots/36FinalResult.PNG" alt="alt text" width="430px" height="100px">
+| Before  | After |
+| --- | --- |
+|![Different style for Save button](Screenshots/28.png)*No styling* | ![Different style for Save button](Screenshots/36.png)*Updated Style*|
+
+
+### User Story: Shift Time Editing
+When the user creates a job, there is a button that opens a modal so they can add a default shift-start time, and also times for specific days, in case the default time isn't used for those specified days. However, if the user needs to edit a job, they can only edit the default time, and there is no modal to change other times. 
+
+![Original Edit View](Screenshots/06ShiftTimeEditingBefore.PNG)
+*Weekly Shifts input with single place to input default time only. No button to add Shift Times.*
+
+
+My goal was to add a new modal, which would populate with all the times from the database, and when the user clicks add, it would immediately update the default time on the Edit page.
+
+
+![Button Added](Screenshots/13ShiftTimeEditingButton.png)
+*Button added, plus a line of code for debugging.*
+
+
+I added a new Partial View for the modal, using scaffolded code and borrowing code from the modal of the Create page. But I updated the code to use a Job model, instead of the ShiftTime modal, so that the modal could get info from the currently selected Job. This would allow the modal to auto-populate with current shift times.
