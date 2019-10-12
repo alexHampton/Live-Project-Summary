@@ -15,11 +15,12 @@ I gained some valuable skills through this project that would be difficult to re
 #### Save Button Partial View
 The program I was working on had various CRUD buttons all with the same styling, except for the Save button. 
 
-![Other buttons with standard styling](Screenshots/25OtherButtons.PNG)
-*Standard button styles*
+| Goal  | Problem |
+| --- | --- |
+|![Other buttons with standard styling](Screenshots/25.png)*Standard button styles* | ![Different style for Save button](Screenshots/28.png)*Save button with different style*|
 
-![Different style for Save button](Screenshots/28SavePartialViewBeforeSchedulesEdit.PNG)
-*Save button with different style*
+
+
 
 The buttons are all a part of a View Model with an enum of Button Type. Save is included within this enum.
 
