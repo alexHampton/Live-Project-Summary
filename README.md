@@ -10,6 +10,11 @@ Table of Contents
 * [Back End](#back-end)
   * [User Story 1: Save Button Partial View](#user-story-1)
   * [User Story 2: Shift Time Editing](#user-story-2)
+* [Front End](#front-end)
+  * [User Story 3: Fix Shift Time Modal](#user-story-3)
+  * [User Story 4: Update Schedule Index](#user-story-4)
+  
+
   
 * [End of Document](#end)
 
@@ -56,7 +61,9 @@ Here is the end result!
 |![Different style for Save button](Screenshots/28.png)*No styling* | ![Different style for Save button](Screenshots/36.png)*Updated Style*|
 
 
+
 ### User Story 2
+
 #### Shift Time Editing
 When the user creates a job, there is a button that opens a modal so they can add a default shift-start time, and also times for specific days, in case the default time isn't used for those specified days. However, if the user needs to edit a job, they can only edit the default time, and there is no modal to change other times. 
 
@@ -82,7 +89,35 @@ I added a new Partial View for the modal, using scaffolded code and borrowing co
 |![Changed the model](Screenshots/15.png)*Old and new models* |![Updated the models](Screenshots/16.jpg)*Old and new model reference*|
 
 
+My next goal was to use jQuery to make an array of inputs, then I would be able to take the new default input and update the Weekly Shifts input with it. First, I had to make sure I was targeting the right parts of the array:
 
+<img src="Screenshots/17ShiftTimeEditing.PNG" alt="Targeting">
+
+*I changed the background color with javascript to make sure I was targeting the right input, but I couldn't seem to get the value to change. It turns out, inputs don't have **innerHTML**, they have **values**. Lesson learned.*
+
+Here's the jQuery that worked:
+
+<img src="Screenshots/22ShiftTimeEditingAfter.PNG" alt="jQuery">
+
+*I made use of the console as much as I could.*
+
+
+Finally, I got the result I was looking for. I made the original  Weekly Shifts button "read-only" so the user would need to use the button to update it. The default time in the modal successfully updated the read-only section, and the database would be fully updated when the user clicks save.
+
+
+| Original Time | New Input | Updated Time|
+| --- | --- | --- |
+|![Old time](Screenshots/23A.PNG)|![User updates](Screenshots/23B.PNG)|![Read-only updates](Screenshots/24.PNG)|
+
+
+
+
+  
+### User Story 3
+#### Fix the Shift Time Modal
+
+### User Story 4
+#### Update the Schedule Index
 
 
 ## End
