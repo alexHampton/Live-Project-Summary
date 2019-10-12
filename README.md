@@ -116,10 +116,53 @@ Finally, I got the result I was looking for. I made the original  Weekly Shifts 
 ### User Story 3
 #### Fix the Shift Time Modal
 
+While working on that last story, I noticed the layout of the modals made them hard to deal with. They were too long for the screen and they could definitely be updated to provide a better user experience. Also, they would appear off to the right of the screen.
+
+| Appears off-center | Very Long |
+| --- | --- |
+|![Modal is off-center](Screenshots/01.png)|![Modal is too long for the screen](Screenshots/02.png)|
+
+With this challenge, DevTools was my best friend! Through a bit of trial and error, I added some bootstrap classes which made the modal much more responsive. 
+
+![Using Developer Tools](Screenshots/09DevTools02.PNG)
+*DevTools makes things go by so much faster.*
+
+| Large Screen | Small Screen |
+| --- | --- |
+| ![Something](Screenshots/06ModalPositionAfter.PNG) | ![Something](Screenshots/07ModalMidSizeAfter.PNG) |
+
+One final problem: There were other sections of the website which used some of Bootstraps modal classes, and some extra CSS was added to those classes, but they prevented this modal from aligning to the center. So I updated the site's CSS file and wrote the code in a way so that if another developer would later try to use the same Bootstrap class to center their modal, they could do so without any further issues.
+
+![Updated CSS](Screenshots/10.png)
+
+
 [Back to top](#live-project-summary) | [To back end](#back-end) | [To front end](#front-end)
 
 ### User Story 4
 #### Update the Schedule Index
 
+Our current Schedule Index wasn't looking too sharp, so I was tasked with updating it.
 
-## End
+| Before | Medium Size |
+| --- | --- |
+|![Schedule before](Screenshots/01SI.PNG) | ![Schedule before](Screenshots/02SI.PNG)
+
+
+After using DevTools, I added some extra classes to the HTML, and started out with some inline CSS, just for the time being. Later, after I got it houw I wanted it, I moved the CSS over to the site CSS page. 
+
+![Added CSS](Screenshots/03SI.PNG) *Some of the updating invlolved*
+
+I was pleased with the final result!
+
+|Medium Size| Small Size|
+| --- | --- |
+|![Medium size after](Screenshots/05SI.PNG) | ![Small size after](Screenshots/06SI.PNG) |
+
+| Before | After|
+| --- | --- |
+|![Schedule before](Screenshots/01SI.PNG) | ![Schedule after](Screenshots/04SI.PNG) |
+
+[Back to top](#live-project-summary) | [To back end](#back-end) | [To front end](#front-end)
+
+### Conclusion
+These two weeks went by way too fast and they were a lot of fun. I admit that I was a bit overwhelmed when I first started. There were so many more files involved in a real project, and it took some time just familiarizing myself with it all. But I learned more and more every single day. Also, it was so rewarding being able to track all of my work and see how I was contributing. 
