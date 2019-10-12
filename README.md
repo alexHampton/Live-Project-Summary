@@ -19,7 +19,7 @@ Table of Contents
 * [End of Document](#end)
 
 
-#### Overall Experience
+## Overall Experience
 I gained some valuable skills through this project that would be difficult to replace with study alone. These skills include:
 - Using Version Control (Git) on a project with multiple users.
 - Using project management software to maintain accountability. In this case, we used Azure DevOps.
@@ -60,7 +60,7 @@ Here is the end result!
 | --- | --- |
 |![Different style for Save button](Screenshots/28.png)*No styling* | ![Different style for Save button](Screenshots/36.png)*Updated Style*|
 
-
+[Back to top](#live-project-summary) | [To back end](#back-end) | [To front end](#front-end)
 
 ### User Story 2
 
@@ -115,6 +115,8 @@ Finally, I got the result I was looking for. I made the original  Weekly Shifts 
   [Back to top](#live-project-summary) | [To back end](#back-end)
 ### User Story 3
 #### Fix the Shift Time Modal
+
+[Back to top](#live-project-summary) | [To back end](#back-end) | [To front end](#front-end)
 
 ### User Story 4
 #### Update the Schedule Index
