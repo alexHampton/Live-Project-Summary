@@ -54,8 +54,16 @@ When the user creates a job, there is a button that opens a modal so they can ad
 My goal was to add a new modal, which would populate with all the times from the database, and when the user clicks add, it would immediately update the default time on the Edit page.
 
 
-![Button Added](Screenshots/13ShiftTimeEditingButton.png)
-*Button added, plus a line of code for debugging.*
+| New Button  | Modal |
+| --- | --- |
+|![Button Added](Screenshots/13.png) |![Something else](Screenshots/14.png)|
+|*Button added, plusa line of code for debugging.* | *The new modal! <br /> (currently cumbersome, more on that later)*|
 
 
 I added a new Partial View for the modal, using scaffolded code and borrowing code from the modal of the Create page. But I updated the code to use a Job model, instead of the ShiftTime modal, so that the modal could get info from the currently selected Job. This would allow the modal to auto-populate with current shift times.
+
+
+
+| Model  | Updates |
+| --- | --- |
+|![Changed the model](Screenshots/15.png)*Old and new models* |![Updated the models](Screenshots/16.jpg)*Old and new model reference*|
